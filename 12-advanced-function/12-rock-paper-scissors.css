@@ -1,0 +1,91 @@
+
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.move-icon {
+  height: 50px;
+ 
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  align-items: center;
+ 
+
+}
+.move-button:hover{
+  color: azure;
+  background-color: antiquewhite;
+  transition: 0.5s;
+ 
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 45%;
+}
+
+.score {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.reset-score-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+.auto-play-button{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+
+}
+.pic{margin-left:34% ;
+  margin-top: 60px;
+
+}
+.move{
+  margin-left: 40%;
+}
+.reset ,.auto-play-button {
+border: none;
+border-radius: 10px;
+background-color: rgb(193, 233, 235);
+color:rgb(11, 2, 2)
+;
+font-size: 17px;
+padding-left:20px;
+}
+.reset:hover{
+  background-color: rgb(133, 153, 190);
+  transition: 0.5s;
+}
+.auto-play-button:hover{
+  background-color: rgb(133, 153, 190);
+  transition: 0.5s;
+}
