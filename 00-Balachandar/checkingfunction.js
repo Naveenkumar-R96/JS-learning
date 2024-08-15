@@ -12,7 +12,7 @@ let playGame=()=>{
     continue;
   
   }
-  else if(!playerChoice){
+   if(!playerChoice){
     decidedNotToPlay();
     break;
   }
